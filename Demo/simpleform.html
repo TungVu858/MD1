@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>simpleform</title>
+</head>
+<body>
+<style>
+  .font {
+    font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+  }
+</style>
+  <fieldset>
+    <legend><h1>You oder</h1></legend>
+    <form action="simpleform.html" method="get" class="font">
+
+      <p>What would you like to buy</p>
+      <select>
+        <option value="">A</option> br
+        <option>B (+0.5$)</option>
+        <option>C (+0.5$</option>
+      </select>
+      <p>How many would oder:</p>
+      <input type="radio" name="rd">>1-10$ <br>
+      <input type="radio" name="rd">>2-10$ <br>
+      <input type="radio" name="rd">>3-23$ <br>
+      <p>Name <span style="color: red">*</span></p>
+      <input type="text" name="firstname" placeholder="FirstName" size="20px">
+      <input type="text" name="lastname" placeholder="LastName" size="20px">
+      <p>Email</p>
+      <input type="text" name="email" size="40px">
+      <p>Phone</p>
+      <input type="number" name="phone1" size="7">-
+      <input type="number" name="phone2" size="7">-
+      <input type="number" name="phone3" size="7">
+      <p><input type="submit" name="btnsubmit" value="Submit"></p>
+    </form>
+  </fieldset>
+</body>
+</html>
