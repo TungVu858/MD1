@@ -21,7 +21,7 @@
             <td colspan="3" style="color: blue">Sở thích
                 <table border="1"  style="color: coral">
                     <tr>
-                        <td> <input type="checkbox"> Thểthao</td>
+                        <td> <label><input type="checkbox">Thểthao</label> </td>
                         <td> <input type="checkbox"> Âm nhạc</td>
                         <td> <input type="checkbox"> Đọc sách</td>
                     </tr>
@@ -54,16 +54,20 @@
         </tr>
     </table>
     <br><br><br><br><br><br>
-    <h1>ĐĂNG KÍ HỌC VIÊN</h1>
+    <h1 style="color: blue">ĐĂNG KÍ HỌC VIÊN</h1>
     <p>Họ và tên &emsp;  <input type="text" name="name"></p>
     <p>Ngày sinh  &emsp;<input type="text" name="age"></p>
     <p>Giới tính  &emsp;<input type="radio" name="gender">Nam <input type="radio" name="gender">Nữ</p>
     <p>Địa chỉ &emsp; &nbsp; <textarea></textarea></p>
-    <p>Lớp  &emsp;&emsp;&emsp;<select></select></p>
+    <p>Lớp  &emsp;&emsp;&emsp;<select><option>-Chọn lớp-</option></select></p>
     <p>Email &emsp;&emsp; <input type="text" name="text"></p>
     <p>Điện thoại  &nbsp;&nbsp;<input type="number" name="phone"></p>
     &emsp;&emsp;&emsp;&emsp;<button>Đăng ký</button>
     <button>Nhập lại</button>
-
+    <style>
+        p{
+            color: aqua;
+        }
+    </style>
 </body>
 </html>
