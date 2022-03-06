@@ -5,21 +5,32 @@
     <title>Info</title>
 </head>
 <body>
-    <table border="2" >
+<style>
+    table{
+        border-collapse: unset;
+    }
+    .td1{
+        display: flex;
+    }
+    .tb1{
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+</style>
+    <table  >
         <tr style="background-color: red">
-        <th colspan="4" style="color:#fff" >SỞ THÍCH CỦA BẠN</th>
+        <th style="color:#fff" >SỞ THÍCH CỦA BẠN</th>
         </tr>
         <tr>
-            <td colspan="1" style="color:blue">Họ và tên</td>
-            <td colspan="3"> <input type="text" name="name" size="30px"></td>
+            <td  style="color:blue" > Họ và Tên <label><input type="text" name="name"></label></td>
+
         </tr>
         <tr>
-            <td style="color: blue">Email</td>
-            <td colspan="2"><input type="text" name="email" size="18px"></td>
+            <td style="color: blue" >Email &emsp;&nbsp;&nbsp; <label><input type="email"name="email"></label> </td>
         </tr>
         <tr>
-            <td colspan="3" style="color: blue">Sở thích
-                <table border="1"  style="color: coral">
+            <td class="td1"  style="color: blue">Sở thích
+                <table class="tb1" style="color: coral">
                     <tr>
                         <td> <label><input type="checkbox">Thểthao</label> </td>
                         <td> <input type="checkbox"> Âm nhạc</td>
@@ -35,7 +46,7 @@
                     </tr>
                 </table>
             </td>
-
+        <tr>
 <!--            <td> <input type="checkbox" name="s1">Thể thao</td>-->
 <!--            <td> <input type="checkbox" name="s2">Âm nhạc</td>-->
 <!--            <td> <input type="checkbox" name="s3">Đọc sách</td>-->
@@ -49,8 +60,11 @@
 <!--            <td> <input type="checkbox" name="s7">Du lịch</td>-->
 <!--        </tr>-->
         <tr>
-            <td> <button type="submit">Gửi thông tin</button> </td>
-            <td> <button type="reset">Nhập lại</button> </td>
+
+                <td style="text-align: center">
+                     <button type="submit">Gửi thông tin</button>
+                     <button type="reset">Nhập lại</button>
+                </td>
         </tr>
     </table>
     <br><br><br><br><br><br>

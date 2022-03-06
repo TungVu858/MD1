@@ -31,6 +31,9 @@ th {
     background-color: red;
     color: white;
 }
+.day.body.sun{
+    border-spacing: unset;
+}
 .blue {
     color: #0433ff;
 }
@@ -44,18 +47,16 @@ th {
     color: white;
     width: 49.377px;
 }
-p {
 
-    padding: 0;
-    margin: 0;
-    font-size: 10px;
-    padding-left: 25px;
-    padding-bottom: 5px;
-
-}
 span{
     text-align: right;
 }
 tr{
     text-align: center;
+}
+.row {
+    height: 50px;
+}
+table{
+    border-collapse: collapse;
 }
