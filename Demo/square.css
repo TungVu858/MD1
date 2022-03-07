@@ -60,3 +60,6 @@ tr{
 table{
     border-collapse: collapse;
 }
+.tr1{
+    border: none;
+}
